@@ -1,0 +1,14 @@
+# Gradle
+.gradle/
+build/
+.idea/
+*.iml
+out/
+
+# Compiled Kotlin
+*.class
+*.jar
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
