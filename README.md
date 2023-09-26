@@ -1,24 +1,26 @@
-# ADS Backend Assessment
-Complete the project TODO's to demonstrate an understanding of SQL, XML, JSON, and the JVM.
+# ADS Backend Test
 
 ## Project Overview
-The project includes an XML source ab.xml containing an AddressBook populated with Contacts. 
-1. Design Contact SQL Schema and define table and CRUD statements
-1. Load the XML file into memory
-1. Parse the contents of the AddressBook into Kotlin objects
-1. Insert Contacts from parsed AddressBook into SQLite
-1. Retrieve all Contacts from SQLite and write them to a file.
+1. Designed Contact SQL Schema and define table and CRUD statements
+2. Loaded the XML file into memory
+3. Parsed the contents of the AddressBook into Kotlin objects
+4. Inserted Contacts from parsed AddressBook into SQLite
+5. Retrieved all Contacts from SQLite and write them to a file.
 
-## Extra Credit
-For additional credits:
-1. Write quality tests that verify independent component functionality
-2. Document all methods and classes
-3. Further optimize DatabaseHandler to be more performant
-4. Add handling to support insertion of a Contact that already exists
-5. Protect your SQL statements from SQL Injection
-6. Add support for column addition to the Contact table
-7. Use coroutines where applicable to make the application more performant
+## Getting Started
 
+Follow the instructions below to set up and run the ADS Backend Test project on your local machine.
 
-## Constraints
-1. No new libraries shall be added to complete the assessment
+### Prerequisites
+
+Before you begin, make sure you have the following prerequisites installed on your system:
+
+- [Kotlin](https://kotlinlang.org/docs/home.html)
+- [SQLite](https://www.sqlite.org/index.html)
+
+### Installation
+
+1. Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/ads-backend-assessment.git
